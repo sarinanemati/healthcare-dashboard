@@ -8,7 +8,7 @@ An interactive, production-ready web application built with **Streamlit**, **pan
 - **Key Performance Indicators (KPIs):** Real-time tracking of critical metrics:
   - Total Patient Count
   - Average Billing Amount
-  - Average Length of Stay (in days)
+  - Average Length of Stay
   - Active Hospital Count
 - **Dynamic Multi-select Filtering:** Sidebar filters that instantly slice data by Gender, Medical Condition, Insurance Provider, and Admission Type.
 - **Rich Plotly Visualizations:**
@@ -17,7 +17,7 @@ An interactive, production-ready web application built with **Streamlit**, **pan
   - **Grouped Bar Charts:** Test result distribution segmented by age groups and gender.
   - **Horizontal Bar Chart:** Top 15 hospitals by average length of stay.
   - **Bar Chart:** Comparative billing analysis across insurance providers.
-- **On-the-fly PDF Report Generation:** Creates and downloads an on-demand PDF report containing key metrics and a preview of the filtered dataset using the `ReportLab` library (rendered directly in memory for speed and efficiency).
+- **On-the-fly PDF Report Generation:** Creates and downloads an on-demand PDF report containing key metrics and a preview of the filtered dataset using the **ReportLab** library.
 - **Interactive Data Table:** A searchable preview of the top 50 rows of the filtered dataset.
 
 ##  Installation & Setup
@@ -30,7 +30,7 @@ git clone https://github.com/your-username/healthcare-dashboard.git
 cd healthcare-dashboard
 ### 2. Create a Virtual Environment using .venv
 It is recommended to use a virtual environment to manage dependencies:
-
+```
 ```bash
 # Windows
 python -m venv venv
@@ -39,14 +39,17 @@ venv\Scripts\activate
 # macOS and Linux
 python3 -m venv venv
 source venv/bin/activate
+```
 ### 3. Install Dependencies
 Install the required packages using pip:
 ```bash
 pip install streamlit pandas plotly reportlab
+```
 ### 4. Run the Application
 Start the Streamlit server:
 ```bash
 streamlit run app.py
+```
 Your default web browser should open automatically. If not, navigate to http://localhost:8501.
 
 ## Data Schema
