@@ -1,6 +1,7 @@
 # Healthcare Analytical Dashboard
 
 An interactive, production-ready web application built with **Streamlit**, **pandas** and **Plotly** for analyzing, visualizing, and filtering healthcare dataset from kaggle(link: https://www.kaggle.com/datasets/prasad22/healthcare-dataset). This tool allows healthcare administrators and data analysts to track patient admission trends, billing analytics, and hospital operational efficiency using side bar filters and plotly charts in real time, with the added capability of exporting dynamically generated PDF reports.
+![Your Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical&bg_color=FFAB91)
 
 ## Key Features
 
