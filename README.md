@@ -2,7 +2,7 @@
 
 An interactive, production-ready web application built with **Streamlit**, **pandas** and **Plotly** for analyzing, visualizing, and filtering healthcare dataset from kaggle(link: https://www.kaggle.com/datasets/prasad22/healthcare-dataset). This tool allows healthcare administrators and data analysts to track patient admission trends, billing analytics, and hospital operational efficiency using side bar filters and plotly charts in real time, with the added capability of exporting dynamically generated PDF reports.
 
-## 🚀 Key Features
+## Key Features
 
 - **Automated Age Grouping (Age Binning):** Automatically categorizes patient ages into standard clinical age brackets (`0-18`, `19-30`, etc.) for more structured statistical analysis.
 - **Key Performance Indicators (KPIs):** Real-time tracking of critical metrics:
@@ -68,7 +68,7 @@ Discharge Date: Discharge date (datetime format).
 Test Results: Laboratory test outcome (Normal, Abnormal, Inconclusive).
 
 ## Code Architecture & Optimization
-### Data Caching (@st.cache_data):
+### Data Caching:
 The CSV parser is cached to prevent re-reading and processing the entire dataset from scratch on every user filter interaction, boosting application response times.
 ### Feature Engineering:
 Automated calculation of Length of Stay by subtracting the admission date from the discharge date.
@@ -81,7 +81,7 @@ The PDF generator writes the report to a io.BytesIO buffer rather than writing f
 Contributions, issues, and feature requests are welcome!
 ## tutorial
 Watch a comprehensive step-by-step demonstration of the project, including its features, code walkthrough, and deployment details
-[Watch the Full Video Here ↗]((https://www.youtube.com/@buildwithsarina))**
+**[Watch the Full Video Here ↗]((https://www.youtube.com/@buildwithsarina))**
 
 <h2 align="center">
 :dizzy: Ask me anything! :sparkles:<br><br>
