@@ -80,7 +80,7 @@ The PDF generator writes the report to a io.BytesIO buffer rather than writing f
 ## Contributing
 Contributions, issues, and feature requests are welcome!
 ## tutorial
-Watch a comprehensive step-by-step demonstration of the project, including its features, code walkthrough, and deployment details
+Watch a comprehensive step-by-step demonstration of the project, including its features, code walkthrough, and deployment details here: 
 [![Watch on YouTube](https://img.shields.io/badge/Watch_Full_Video-Red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@buildwithsarina)
 
 
